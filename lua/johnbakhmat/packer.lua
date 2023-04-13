@@ -16,8 +16,8 @@ return require('packer').startup(function(use)
     use 'nvim-tree/nvim-web-devicons'
     use "rebelot/kanagawa.nvim"
     use ('nvim-treesitter/nvim-treesitter', {run= ':TSUpdate'})
-
     use "tpope/vim-fugitive"
+    use 'sbdchd/neoformat'
     use 'mbbill/undotree'
     use {
         'VonHeikemen/lsp-zero.nvim',
