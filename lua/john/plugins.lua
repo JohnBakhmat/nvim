@@ -6,12 +6,12 @@ return {
 	},
 	{
 		"karb94/neoscroll.nvim",
-		config = require("config.neoscroll"),
+		config = require("john.config.neoscroll"),
 	},
 	{
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
-		config = require("config.treesitter"),
+		config = require("john.config.treesitter"),
 	},
 	{
 		"VonHeikemen/lsp-zero.nvim",
@@ -24,17 +24,17 @@ return {
 			{ "hrsh7th/cmp-nvim-lsp" },
 			{ "L3MON4D3/LuaSnip" },
 		},
-		config = require("config.lsp"),
+		config = require("john.config.lsp"),
 	},
 	{
 		"nvim-telescope/telescope.nvim",
 		tag = "0.1.3",
 		dependencies = { "nvim-lua/plenary.nvim" },
-		config = require("config.telescope"),
+		config = require("john.config.telescope"),
 	},
 	{
 		"folke/trouble.nvim",
-		config = require("config.trouble"),
+		config = require("john.config.trouble"),
 	},
 	{
 		enabled = false,
@@ -45,7 +45,7 @@ return {
 			"nvim-tree/nvim-web-devicons",
 			"MunifTanjim/nui.nvim",
 		},
-		config = require("config.neotree"),
+		config = require("john.config.neotree"),
 	},
 	{
 		"windwp/nvim-autopairs",
@@ -56,11 +56,11 @@ return {
 	{
 		"phaazon/hop.nvim",
 		branch = "v2",
-		config = require("config.hop"),
+		config = require("john.config.hop"),
 	},
 	{
 		"sbdchd/neoformat",
-		config = require("config.neoformat"),
+		config = require("john.config.neoformat"),
 	},
 	"nvim-telescope/telescope-file-browser.nvim",
 	"nvim-treesitter/nvim-treesitter-context",
