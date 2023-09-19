@@ -62,12 +62,6 @@ return {
 		"sbdchd/neoformat",
 		config = require("john.config.neoformat"),
 	},
-	"nvim-telescope/telescope-file-browser.nvim",
-	"nvim-treesitter/nvim-treesitter-context",
-	"folke/zen-mode.nvim",
-	"jose-elias-alvarez/null-ls.nvim",
-	"nvim-tree/nvim-web-devicons",
-	"preservim/nerdcommenter",
 	{
 		"nvim-lualine/lualine.nvim",
 		config = require("john.config.lualine"),
@@ -81,7 +75,21 @@ return {
 		config = require("john.config.refactoring"),
 	},
 	{
+		"ThePrimeagen/harpoon",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+		},
+		config = require("john.config.harpoon"),
+	},
+
+	{
 		"tpope/vim-fugitive",
 		config = require("john.config.fugitive"),
 	},
+	"nvim-telescope/telescope-file-browser.nvim",
+	"nvim-treesitter/nvim-treesitter-context",
+	"folke/zen-mode.nvim",
+	"jose-elias-alvarez/null-ls.nvim",
+	"nvim-tree/nvim-web-devicons",
+	"preservim/nerdcommenter",
 }
