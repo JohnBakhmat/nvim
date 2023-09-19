@@ -67,11 +67,17 @@ return {
 	"folke/zen-mode.nvim",
 	"jose-elias-alvarez/null-ls.nvim",
 	"nvim-tree/nvim-web-devicons",
+	"preservim/nerdcommenter",
 	{
 		"nvim-lualine/lualine.nvim",
-		config = require('john.config.lualine')
+		config = require("john.config.lualine"),
 	},
 	{
-		"preservim/nerdcommenter"
-	}
+		"ThePrimeagen/refactoring.nvim",
+		dependencies = {
+			"nvim-lua/plenary.nvim",
+			"nvim-treesitter/nvim-treesitter",
+		},
+		config = require("john.config.refactoring"),
+	},
 }
