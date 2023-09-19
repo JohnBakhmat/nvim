@@ -80,4 +80,8 @@ return {
 		},
 		config = require("john.config.refactoring"),
 	},
+	{
+		"tpope/vim-fugitive",
+		config = require("john.config.fugitive"),
+	},
 }
