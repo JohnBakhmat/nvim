@@ -65,5 +65,13 @@ return {
 	"nvim-telescope/telescope-file-browser.nvim",
 	"nvim-treesitter/nvim-treesitter-context",
 	"folke/zen-mode.nvim",
-	"jose-elias-alvarez/null-ls.nvim"
+	"jose-elias-alvarez/null-ls.nvim",
+	"nvim-tree/nvim-web-devicons",
+	{
+		"nvim-lualine/lualine.nvim",
+		config = require('john.config.lualine')
+	},
+	{
+		"preservim/nerdcommenter"
+	}
 }
