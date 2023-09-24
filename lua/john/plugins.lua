@@ -5,11 +5,6 @@ return {
 		lazy = false,
 	},
 	{
-		"AustinMay1/Serendipity.nvim",
-		name = "serendipity",
-		lazy = false,
-	},
-	{
 		"karb94/neoscroll.nvim",
 		config = require("john.config.neoscroll"),
 	},
