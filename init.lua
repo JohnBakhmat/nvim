@@ -15,6 +15,6 @@ initLazy = function ()
 	require("lazy").setup("plugins")
 end
 
-require("lua/remap")
+require("remap")
 initLazy()
-require("lua/set")
+require("set")
