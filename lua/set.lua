@@ -1,5 +1,5 @@
 function SetTheme(theme)
-	theme = theme or "catppuccin"
+	theme = theme or "gruvbox"
 	vim.cmd.colorscheme(theme)
 end
 
