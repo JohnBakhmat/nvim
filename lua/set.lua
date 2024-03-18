@@ -1,11 +1,11 @@
 function SetTheme(theme)
-	theme = theme or "gruvbox"
+	theme = theme or "catppuccin"
 	vim.cmd.colorscheme(theme)
 end
 
 SetTheme()
 
-
+vim.g.have_nerd_font = true
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
